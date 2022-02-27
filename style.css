@@ -1,0 +1,89 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 5% 10%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+  margin-bottom: 2.5%;
+}
+
+.nav {
+  display: flex;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 15%;
+}
+
+.item {
+  width: 20%;
+  height: 100%;
+  margin-right: 5%;
+  background-color: red;
+}
+
+/* .viewContent {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: flex-end;
+}
+
+.viewItem {
+  width: 85%;
+  height: 100%;
+  background-color: red;
+  margin-right: 5%;
+}
+
+.sideBar {
+  width: 25%;
+  height: 380px;
+  background-color: red;
+} */
+
+.sec {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5%;
+}
+.viewContent {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.viewItem {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  margin-right: 5%;
+  padding-left: 25%;
+}
+.sidebar {
+  width: 35%;
+  height: 150%;
+  background-color: red;
+}
+
+.foot {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
